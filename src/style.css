@@ -1,1 +1,56 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.carta {
+  background-color: white;
+  border-radius: 10%;
+  height: 350px;
+  width: 250px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.paloArriba {
+  position: relative;
+  height: 10%;
+  margin-top: 10%;
+  margin-left: 20px;
+  font-size: 50px;
+}
+
+.numero {
+  position: relative;
+  height: 80%;
+  font-size: 100px;
+  top: 20%;
+  left: 40%;
+}
+.paloAbajo {
+  position: relative;
+  height: 10%;
+  margin-right: 20px;
+  font-size: 50px;
+  transform: rotate(180deg);
+}
+
+.diamond {
+  color: red;
+}
+
+.heart {
+  color: red;
+}
+
+.spade {
+  color: black;
+}
+
+.club {
+  color: black;
+}
+
+.boton {
+  position: absolute;
+  margin-left: 44.5%;
+}
